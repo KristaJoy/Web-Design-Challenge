@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>Weather Data</title>
+  <title>Weather Data: Cloudiness</title>
 
   <!-- Bring in our bootstrap stylesheet -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -50,16 +50,13 @@
     <!--First Column-->
         <div class="col-md-8">
             <div class="box">
-                <h1>Summary: Latitude vs. X</h1>
+                <h1>Cloudiness</h1>
             <hr>
-                <a target="_blank" href="Resources/assets/images/Fig1.png">
-                    <img class="resize" src="Resources/assets/images/Fig1.png"  alt="City Latitude vs. Max Temperature">
+                <a target="_blank" href="Resources/assets/images/Fig3.png">
+                    <img class="photo2" src="Resources/assets/images/Fig3.png"  alt="City Latitude vs. Cloudiness">
                 </a>
                 <p>
-                    The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
-                    <br>
-                    <br>
-                    After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitutde. Factors we looked at included: temperature, cloudiness, wind speeed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+                    The amount of clouds seems to be scattered across all Latitudes during this time of year. There does seem to be a slight difference between the southern hemisphere having fewer datapoints for really cloudy days compared to the northern hemisphere. 
                 </p>
             </div>
         </div>
@@ -72,23 +69,23 @@
                 <div class="grid-container">
                     <div class="row">
                     <div class="col">
-                        <a target="_blank" href="maxtemp.html">
+                        <a href="maxtemp.html">
                             <img class="photo" src="Resources/assets/images/Fig1.png"  alt="City Latitude vs. Max Temperature">
                         </a>
                     </div>
                     <div class="col">
-                        <a target="_blank" href="humidity.html">
+                        <a href="humidity.html">
                             <img class="photo" src="Resources/assets/images/Fig2.png"  alt="City Latitude vs. Humidity">
                         </a>
                     </div>
                     <div class="w-100"></div>
                     <div class="col">
-                        <a target="_blank" href="cloudiness.html">
-                            <img class="photo" src="Resources/assets/images/Fig3.png"  alt="City Latitude vs. Cloudiness">
+                        <a href="cloudiness.html">
+                            <img class="photo outline" src="Resources/assets/images/Fig3.png"  alt="City Latitude vs. Cloudiness">
                         </a>
                     </div>
                     <div class="col">
-                        <a class="photo" target="_blank" href="wind.html">
+                        <a href="wind.html">
                             <img class="photo" src="Resources/assets/images/Fig4.png"  alt="City Latitude vs. Wind Speed">
                         </a>
                     </div>
