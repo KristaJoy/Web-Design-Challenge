@@ -31,6 +31,11 @@
     border: 3px solid #4AABA5
 }
 
+.margins {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 body {
     background: #f1f1f1;
   }
@@ -77,3 +82,17 @@ p {
   }
 
 
+th {
+  text-align: left;
+}
+
+
+/* Styles ONLY be applied at screen sizes below 800 pixels */
+@media (max-width: 900px) {
+  .margins {
+    margin-left: 0px;
+    margin-right: 0px;
+  
+  }
+
+  }
