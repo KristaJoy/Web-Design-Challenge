@@ -1,2 +1,3 @@
 # Web-Design-Challenge
-Using HTML and CSS to create a dashboard showing off the analysis I've done.
+
+Open the index.html file to view the dashboard layout I created to view the data analysis of weather data. 
